@@ -1,11 +1,36 @@
+:root{
+    --bg-white: rgba(151, 151, 151, 0.3);
+    --br: 5px;
+    --border: solid 1px rgba(255, 255, 255, 0.5);
+    --black: #212121;
+    --gray: #131212;
+}
+
 *{margin: 0;padding: 0;box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
 }
 #particles-js{
     width: 100%;
     height: 100vh;
-    background: #11083a;
+    background: #232741;
 }
-h1{position: absolute;top: 50%;left: 50%;
+/*h1{position: absolute;top: 50%;left: 50%;
     transform: translate(-50%, -50%);font-size: 80px;color: white;
+}*/
+.container{
+    width: 170px;
+    height: 300px;
+    background-color: var(--bg-white);
+    border: var(--border);
+    border-radius: var(--br);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.1);
 }
