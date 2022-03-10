@@ -24,8 +24,8 @@ body{
 .container{
     width: calc(100% - 500px);
     height: calc(100% - 300px);
-    background-color: var(--bg-white);
-    border: var(--border);
+    background-color: rgba(100, 100, 100, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--br);
     position: absolute;
     top: 50%;
