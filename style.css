@@ -22,8 +22,8 @@ body{
     transform: translate(-50%, -50%);font-size: 80px;color: white;
 }*/
 .container{
-    width: calc(100% - 500px);
-    height: calc(100% - 300px);
+    width: calc(100% - 50px);
+    height: calc(100% - 30px);
     background-color: rgba(100, 100, 100, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--br);
