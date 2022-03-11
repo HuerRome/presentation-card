@@ -184,7 +184,7 @@ a{
     }
 }
 
-@media (max-width: 7068px) and (min-width: 481px){
+@media (min-width: 481px){
     .container{
         height: 600px;
         width: 320px;
@@ -208,6 +208,7 @@ a{
     img{
         width: 90px;
         height: 90px;
+        margin-bottom: 5px;
     }
     .image div a span{
         font-size: 28px;
@@ -245,6 +246,3 @@ a{
     }
 }
 
-@media (max-width: 1200px) and (min-width: 1025px){
-
-}
