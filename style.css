@@ -126,22 +126,22 @@ a{
 .links a{
     width: 90%;
     height: 51px;
-    border: 1px solid #3daef5;
+    border: 1px solid #49b3f5;
     border-radius: var(--br);
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    text-shadow:
-    0 0 5px rgba(149, 200, 223, 0.5),
-    0 0 10px rgba(158, 219, 245, 0.5),
-    0 0 20px rgba(0,178,255,0.5),
-    0 0 30px rgba(38,104,127,0.5),
-    0 0 60px rgba(38,104,127,0.5),
-    0 0 70px rgba(38,104,127,0.5),
-    0 0 100px rgba(38,104,127,0.5),
-    0 0 80px rgba(38,104,127,0.5),
-    0 0 100px rgba(38,104,127,0.5);
+	text-shadow:
+		0 0 5px rgba(0,178,255,0.25),
+		0 0 10px rgba(0,178,255,0.25),
+		0 0 20px rgba(0,178,255,0.25),
+		0 0 40px rgba(38,104,127,0.25),
+		0 0 80px rgba(38,104,127,0.25),
+		0 0 90px rgba(38,104,127,0.25),
+		0 0 100px rgba(38,104,127,0.25),
+		0 0 140px rgba(38,104,127,0.25),
+		0 0 180px rgba(38,104,127,0.25);
 }
 
 .icon-verified{
