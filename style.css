@@ -30,8 +30,8 @@ body{
     background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     background: #00bf8f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -45,7 +45,7 @@ background: linear-gradient(to top, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Fir
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(7px);
     box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.15);
 }
 img{
@@ -74,7 +74,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
 }
 
 .image p{
@@ -129,7 +129,7 @@ a{
 .links a{
     width: 90%;
     height: 51px;
-    border: 1px solid #49b3f5;
+    border: 1px solid #299c15;
     border-radius: var(--br);
     display: flex;
     justify-content: center;
